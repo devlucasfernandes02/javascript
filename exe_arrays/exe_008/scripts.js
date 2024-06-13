@@ -1,13 +1,12 @@
-let nums = [0, 5, 10, 15, 20];
+//json
 
-for(let i = 0; i < nums.length; i++) {
-    console.log(nums[i]);
+let pessoa = {
+    "nome": "Lucas",
+    "idade": 22,
+    "profissão": "Desenvolvedor"
 }
 
-
-let i = 0;
-
-while(i < nums.length) {
-    console.log(nums[i]);
-    i++;
-}
+console.log(pessoa);
+console.log(pessoa.nome);
+console.log(pessoa.idade);
+console.log(pessoa.profissão);
